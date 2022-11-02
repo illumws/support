@@ -1,0 +1,24 @@
+{
+  "name": "illum/support",
+  "description": "versão simplificada do Illuminate/Support sem muitas das dependencias originais. baseado em clarkeash/str",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alessandro Amos",
+      "email": "alessandroamos00@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Illum\\Support\\": "src/"
+    },
+    "files": ["src/helpers.php"]
+  },
+  "require": {
+    "doctrine/inflector": "v2.*",
+    "illuminate/macroable": "v8.*",
+    "illuminate/contracts": "v8.*",
+    "illuminate/collections": "v8.*"
+  }
+}
