@@ -19,6 +19,7 @@
     "doctrine/inflector": "v2.*",
     "illuminate/macroable": "v8.*",
     "illuminate/contracts": "v8.*",
-    "illuminate/collections": "v8.*"
+    "illuminate/collections": "v8.*",
+    "nesbot/carbon": "^2.62"
   }
 }
