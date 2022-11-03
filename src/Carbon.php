@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Support;
+namespace Illum\Support;
 
 use Carbon\Carbon as BaseCarbon;
 use Carbon\CarbonImmutable as BaseCarbonImmutable;
